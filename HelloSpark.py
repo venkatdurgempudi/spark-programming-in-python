@@ -14,4 +14,5 @@ if __name__ == "__main__":
 				 
 
     df = spark.createDataFrame(data_list).toDF("Name", "Age")
-	df.show()
+
+df.show()
